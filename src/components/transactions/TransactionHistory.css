@@ -1,0 +1,31 @@
+.transaction-history {
+  border-collapse: collapse;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-header {
+  background-color: #f2f2f2;
+}
+
+.table-header th {
+  padding: 8px;
+  text-align: left;
+  font-weight: bold;
+  border: 1px solid #ddd;
+}
+
+.table-body td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.table-row:hover {
+  background-color: #f2f2f2;
+}
+
+
+
+
+

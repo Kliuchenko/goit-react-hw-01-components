@@ -1,0 +1,35 @@
+.friend-list {
+    background-color: aliceblue;
+    list-style: none;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.friends-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.friends-item {
+    border: 2px solid rgba(0, 0, 0, 0.171);
+    border-left: none;
+    border-right: none;
+}
+
+.friends-status {
+    display: block;
+    text-align: center;
+    margin: 20px 5px 20px 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
